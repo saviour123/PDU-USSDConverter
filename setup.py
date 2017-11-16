@@ -7,18 +7,18 @@ def read(fname):
 
 
 setup(
-    name="pdu_ussd_converter",
-    version="0.1",
+    name="PDUUSSDConverter",
+    version="0.0.2",
     author="Saviour Gidi",
     author_email="profsaviour@gmail.com",
-    description=("An to convert between pdu, gsm, ussd and string formats,\
-                 document, and publish to the cheese shop a5 pypi.org."),
+    description="A utility to convert between pdu, gsm codes, \
+    ussd and string formats",
     license="MIT",
-    keywords="PDU USSD GSM",
+    keywords="PDU USSD GSM HEX",
     url="https://github.com/saviour123/PDU-USSDConverter.git",
-    packages=['an_example_pypi_project', 'tests'],
-    long_description=read('README'),
-    install_requires=['pdu_gsm_converter'],
+    packages=['PDUUSSDConverter'],
+    long_description=read('README.md'),
+    install_requires=[],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
