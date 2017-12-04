@@ -5,7 +5,7 @@ This is works well with python3
 
 
 ## Installation
-`pip install PDU-USSDConverter`
+`pip install PDUUSSDConverter`
 
 
 ## Example

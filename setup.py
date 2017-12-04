@@ -1,3 +1,9 @@
+"""
+23/11/2017
+
+@saviour gidi
+"""
+
 import os
 from setuptools import setup
 
@@ -8,7 +14,7 @@ def read(fname):
 
 setup(
     name="PDUUSSDConverter",
-    version="0.0.2",
+    version="0.0.2post1",
     author="Saviour Gidi",
     author_email="profsaviour@gmail.com",
     description="A utility to convert between pdu, gsm codes, \

@@ -1,5 +1,5 @@
 import unittest
-from pdu_convertor import text_to_pdu, pdu_to_text
+from PDUUSSDConverter.converter import text_to_pdu, pdu_to_text
 
 
 class TestConverter(unittest.TestCase):
