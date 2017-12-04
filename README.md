@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/saviour123/PDU-USSDConverter.svg?branch=master)](https://travis-ci.org/saviour123/PDU-USSDConverter)
 # PDU-USSDConverter
 A Simple Utility to Convert Between PDU encoded text, USSD/GSM and String and
 Vice-Versa.
