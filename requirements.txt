@@ -1,2 +1,1 @@
 -e git+https://github.com/saviour123/PDU-USSDConverter.git@59c79211f709b69077e6ae025edf780d6898d209#egg=PDUUSSDConverter
-pkg-resources==0.0.0
