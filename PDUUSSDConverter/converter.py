@@ -72,7 +72,7 @@ def gsm_code_to_text(gsm):
 def text_to_pdu(text):
     # If text not in unicode, convert/decode to unicode
     if not isinstance(text, str):
-        text = str(text).decode('utf-8')
+        text = str(text)
     # Get gsm code list for the text
     gsm_code = text_to_gsm_code(text)
     # Encode gsm code list in PDU
